@@ -15,8 +15,7 @@ def chatbot_response(user_input):
             return responses[key]
 
     return "I'm sorry, I don't understand that. Can you try asking something else?"
-
-# Running the chatbot in a loop
+    
 print("Chatbot is running... Type 'exit' to stop.")
 while True:
     user_input = input("You: ")
